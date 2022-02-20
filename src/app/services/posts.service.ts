@@ -6,7 +6,7 @@ import {Observable, timestamp} from "rxjs";
   providedIn: 'root'
 })
 export class PostsService {
-  url = 'http://localhost/api/v1/blogposts'
+  url = 'http://46.101.178.203/api/v1/blogposts'
   constructor(private httpClient: HttpClient) { }
 
   getPosts(): Observable<any> {
